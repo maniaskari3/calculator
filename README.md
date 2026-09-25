@@ -1,12 +1,20 @@
-# Calculator
+\# Calculator
 
 
 
-A simple command-line calculator written in Python.
+A simple calculator for the four basic arithmetic operations.
 
 
 
-This project was created as one of my first Python projects while learning the fundamentals of programming.
+\## Features
 
 
+
+\* Addition
+
+\* Subtraction
+
+\* Multiplication
+
+\* Division
 
