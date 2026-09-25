@@ -1,4 +1,4 @@
-\# Calculator
+\# Calculator 
 
 
 
@@ -10,11 +10,8 @@ A simple calculator for the four basic arithmetic operations.
 
 
 
-\- Addition
-
-\- Subtraction
-
-\- Multiplication
-
-\- Division
+* Addition
+* Subtraction
+* Multiplication
+* Division
 
