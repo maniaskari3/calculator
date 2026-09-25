@@ -1,4 +1,4 @@
-\# Calculator 
+# Calculator
 
 
 
@@ -6,7 +6,7 @@ A simple calculator for the four basic arithmetic operations.
 
 
 
-\## Features
+### Features
 
 
 
