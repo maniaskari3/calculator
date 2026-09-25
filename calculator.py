@@ -1,0 +1,7 @@
+num1 = int(input("put your num:"))
+num2 = int(input("put your num:"))
+print("Sum:" , num1 + num2)
+print("Sub:" , num1 - num2)
+print("Mul:" , num1 * num2)
+print("Div:" , num1 / num2)
+print("pow:" , num1 ** num2)
