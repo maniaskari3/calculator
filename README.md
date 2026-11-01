@@ -2,7 +2,7 @@
 
 
 
-A simple calculator for the four basic arithmetic operations.
+A simple calculator written in Python that supports four basic arithmetic operations.
 
 
 
@@ -16,6 +16,7 @@ A simple calculator for the four basic arithmetic operations.
 * Division
 * Interactive operation menu
 * Continuous calculations using a while loop
+* New numbers for each calculation
 * Division by zero protection
 * Exit option
 
@@ -26,12 +27,12 @@ A simple calculator for the four basic arithmetic operations.
 * v1.0.0 — Basic calculator
 * v1.1.0 — Operation selection menu
 * v1.2.0 — Continuous calculations using while loop and division by zero protection
+* v1.3.0 - Added new number inputs for each calculation
 
 
 
 ### Future Improvements
 
-* Allow users to enter new numbers for each calculation
 * Improve input validation
 * Add calculation history
 * Add more mathematical operations
