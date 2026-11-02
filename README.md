@@ -17,6 +17,8 @@ A simple calculator written in Python that supports four basic arithmetic operat
 * Interactive operation menu
 * Continuous calculations using a while loop
 * New numbers for each calculation
+* Input validation for operation selection
+* Error handling using try/except
 * Division by zero protection
 * Exit option
 
@@ -28,12 +30,13 @@ A simple calculator written in Python that supports four basic arithmetic operat
 * v1.1.0 — Operation selection menu
 * v1.2.0 — Continuous calculations using while loop and division by zero protection
 * v1.3.0 - Added new number inputs for each calculation
+* v1.4.0 - Added input validation and exception handling using try/except
 
 
 
 ### Future Improvements
 
-* Improve input validation
 * Add calculation history
 * Add more mathematical operations
+* Refactor the code using functions
 
