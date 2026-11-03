@@ -1,22 +1,38 @@
 choose = 0
-while 5 != choose:
+list1 = []
+while 7 != choose:
     print("""Choose an operation:
 1. Addition
 2. Subtraction
 3. Multiplication
 4. Division
-5. End!""")
+5. Show History
+6. Clear History
+7. End!""")
 
     try:
         choose = int(input("Choose an operation: "))
     except ValueError:
         print("Please enter a valid number.")
         continue
-    if choose == 5:
+    if choose == 7:
         print("Finish.")
-    elif choose < 1 or choose > 5:
-        print("You should choose between 1 and 5.")
+    elif choose < 1 or choose > 7:
+        print("You should choose between 1 and 7.")
         continue
+    elif choose == 5:
+        n = 0
+        for i in list1:
+            n = n + 1
+            print(f"{n}. {i}")
+        if list1 == []:
+            print("History is already empty.")
+    elif choose == 6:
+        if list1 == []:
+            print("There is no history to clear.")
+        else:
+            list1.clear()
+            print("History cleared successfully.")
     else:
         try:
             num1 = float(input("Put your First Number: "))
@@ -25,13 +41,22 @@ while 5 != choose:
             print("Please enter a valid number.")
             continue
         if choose == 1:
-            print(f"Result: {num1 + num2}")
+            result = num1 + num2
+            print(f"Result: {result}")
+            list1.append(f"{num1} + {num2} = {result}")
         elif choose == 2:
-            print(f"Result: {num1 - num2}")
+            result = num1 - num2
+            print(f"Result: {result}")
+            list1.append(f"{num1} - {num2} = {result}")
         elif choose == 3:
-            print(f"Result: {num1 * num2}")
+            result = num1 * num2
+            print(f"Result: {result}")
+            list1.append(f"{num1} * {num2} = {result}")
         elif choose == 4:
             if num2 == 0:
                 print("Cannot divide by zero")
+                continue
             else:
-                print(f"Result: {num1 / num2}")
+                result = num1 / num2
+                print(f"Result: {result}")
+                list1.append(f"{num1} / {num2} = {result}")
